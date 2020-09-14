@@ -1,0 +1,361 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+  }
+ .custom-img{
+    border-radius: 20%;
+    max-width: 100%;
+    height: 40%;
+ } 
+  .product-card {
+    padding: 2%;
+    flex-grow: 1;
+    flex-basis: 16%;
+  
+    display: flex; /* so child elements can use flexbox stuff too! */
+  }
+  .product-image img {
+    max-width: 40%;
+  }
+
+  *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: ptsans;
+}
+ul li{
+    list-style: none;
+}
+a , a:hover{
+    text-decoration: none;
+}
+@font-face {
+  font-family: pacifico;
+  src: url(pacifico.woff);
+}
+@font-face {
+  font-family: ptsans;
+  src: url(ptsans.woff);
+}
+input , button{
+    outline: none;
+}
+div.container{
+    width: 85%;
+    margin: 0px auto;
+}
+.col-1{
+    width: 6.333333333%;
+    float: left;
+    margin: 0 1%;
+}
+.col-2{
+    width: 14.66666667%;
+    float: left;
+    margin: 0 1%;
+}
+.col-3{
+    width: 23%;
+    float: left;
+    margin: 0 1%;
+}
+.col-4{
+    width: 31.33333333%;
+    float: left;
+    margin: 0 1%;
+}
+.col-5{
+    width: 39.66666667%;
+    float: left;
+    margin: 0 1%;
+}
+.col-6{
+    width:48%;
+    float: left;
+    margin: 0 1%;
+}
+.col-7{
+    width: 56.33333333%;
+    float: left;
+    margin: 0 1%;
+}
+.col-8{
+    width: 56.33333333%;
+    float: left;
+    margin: 0 1%;
+}
+.col-9{
+    width: 73%;
+    float: left;
+    margin: 0 1%;
+}
+.col-10{
+    width: 81.33333333%;
+    float: left;
+    margin: 0 1%;
+}
+.col-11{
+    width: 89.66666667%;
+    float: left;
+    margin: 0 1%;
+}
+.col-12{
+    width: 98%;
+    float: left;
+    margin: 0 1%;
+}
+section.top-info-menu {
+    background: #222222;
+    width: 100%;
+    float: left;
+}
+.row{
+    padding-left: 20px;
+}
+section.top-info-menu {
+    background: #222222;
+    width: 100%;
+    float: left;
+    padding: 3px 0px;
+    position: relative;
+}
+.bar {
+    position: absolute;
+    right: 11px;
+    top: 7px;
+}
+span.wl {color: #eeeeee;}
+
+.top-menu-info-left a {
+   color: #808080;
+}
+.top-menu-info-right{
+    text-align: right;
+}
+.top-menu-info-right a{
+     color: #808080;
+}
+.bar i {
+    display: block;
+    background: #999999;
+    height: 3px;
+    width: 30px;
+    margin-bottom: 5px;
+}
+.bar{
+    display: none;
+}
+ul.mainmenu li {
+    display: inline-block;
+}
+ul.mainmenu li a{
+    color: #dc001e;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0px 11px;
+}
+span.active {
+    display: block;
+    width: 88%;
+    background: #dc001e;
+    height: 2px;
+    text-align: center;
+    margin: 5px auto;
+}
+section.menu {
+    width: 100%;
+    float: left;
+}
+.search input {
+    border: none;
+    background: no-repeat;
+    box-shadow: inset 1px 1px 2px 1px black;
+    width: 356px;
+    padding: 6px 6px;
+}
+.search input::placeholder{
+    color: #aba7ad;
+    }
+    .search input:focus ,.search button:focus{
+        background-color: #fefefe;
+    }
+.search button {
+    padding: 4px 6px;
+    background: none;
+    border: none;
+    color: #85806b;
+}
+ul.mainmenu {
+    padding-top: 50px;
+        padding-left: 22px;
+}
+
+.search {
+    padding-top: 42px;
+}
+section.banner {
+    width: 100%;
+    float: left;
+    background-color: #cc3333;
+
+}
+ul.breadcum li {
+    display: inline-block;
+}
+
+ul.breadcum li span {
+    color: #eeeeee;
+     text-shadow: 1px 1px 1px black;
+}
+
+ul.breadcum li a {
+    
+        color: #eeeeee;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+}
+h1.title-disc {
+    font-family: pacifico;
+    color: #eeeeee;
+    letter-spacing: 6px;
+    font-size: 30px;
+    margin: 7px 0px;
+}
+.btn-now {
+    text-align: center;
+}
+
+.btn-now a {
+    color: white;
+    background: #b23434;
+    padding: 15px 62px;
+    display: inline-block;
+    border-radius: 8px;
+}
+.btn-now p {
+    color: white;
+    font-size: 11px;
+}
+section.banner {
+    padding: 36px 0px;
+    box-shadow:  inset 3px 3px #6a1a1a;
+}
+.btn-now a:hover{
+    box-shadow: inset 2px 2px 2px 2px #882b2b;
+    border: 1px solid #bd3737;
+}
+.btn-now a:active{
+   background-color: #90282c;
+}
+p.price {
+    color: #222222;
+    font-weight: bold;
+}
+
+p.price {
+    margin: 10px 0px;
+    font-size: 23px;
+}
+
+p.price span{
+    color: #cdcdcd;
+}
+.discover {
+    float: right;
+    position: relative;
+    overflow: hidden;
+}
+.discover  img{
+    border-radius: 8px;
+}
+ul.album-content {
+    background: rgba(255,255,255,0.6);
+    height: 225px;
+}
+div.behide{
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+}
+.rote {
+    position: relative;
+    transition: all .5s;
+}
+.rote  div.behide{
+    backface-visibility: hidden;
+}
+.discover:hover .rote{
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;   
+}
+.discover:hover span.sale{
+    opacity: 0;
+}
+ul.album-content {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+span.sale {
+    display: inline-block;
+    background: red;
+    color: white;
+    padding: 2px 29px;
+    position: absolute;
+    top: 16px;
+    transform: rotate(-45deg);
+    left: -24px;
+}
+p.poem {
+    text-align: justify;
+}
+@media only screen and (max-width: 768px){
+    .top-menu-info-right {
+    text-align: left;
+}   
+.bar{
+    display: block;
+}
+.top-menu-info-right {
+    padding-top: 7px;
+    font-size: 13px;
+    padding-left: 16px;
+}
+
+.top-menu-info-left {
+    font-size: 10px;
+    padding-top: 9px;
+}
+.logo{
+    size: 20%;
+}
+ul.mainmenu , .search{
+    display: none;
+}
+.col-2.logo-mb {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+section.banner .col-7 {
+    float: none;
+    width: 100%;
+}
+
+section.banner .col-5 {
+    float: none;
+    width: 100%;
+}
+
+h1.title-disc {font-size: 16px;}
+
+.btn-now a {
+    display: block;
+    margin: 0px 0px;
+}
+
+.btn-now {
+    margin-top: 19px;
+}
+}
